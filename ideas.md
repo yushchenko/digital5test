@@ -16,5 +16,6 @@ I used to know C# but now JavaScript seems better for me to play with algorithms
 
 Use http://pivotal.github.com/jasmine/.
 Check performance in http://jsperf.com/, provide sample URL's.
+http://jsperf.com/fibonacii-numbers-for-digital5-test
 
 Write down only one sample, replace C# function definition with JavaScript one.
