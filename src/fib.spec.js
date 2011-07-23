@@ -1,19 +1,18 @@
 describe("Fibonacci Sequence", function() {
 
-  beforeEach(function() {
+  it("should calculate fibs in different ways", function() {
 
-  });
+      var fibs = [0,1,1,2,3,5,8],
+          n, max = fibs.length + 1,
 
-  it("should calculate fibs in a simple way", function() {
+          toTest = [fibSimple, fibMayBeBetter, fibMemoization],
+          k, len = toTest.length;
 
-  });
-
-  it("should be faster than the previous one", function() {
-
-  });
-
-  it("should work correctly and fast with memoization", function() {
-
+      for (k = 0; k < len; k += 1) {
+          for (n = 1; n < max; n += 1) {
+              expect(toTest[k](n)).toEqual(fibs[n-1]);
+          }
+      }
   });
 
 });
