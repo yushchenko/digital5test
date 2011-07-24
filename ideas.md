@@ -32,7 +32,6 @@ In theory, the code below should work but I have never run it, sorry for that.
 
 # 3. JavaScript, parsing query string
 
-Make the function sutable for unit tests using parameter.
-Use feature detection technique for trim function, use jQuery code.
-Create separate runner to test real query params.
+Make the function sutable for unit tests using an extra parameter.
+Create separate runner to test with real query params.
 

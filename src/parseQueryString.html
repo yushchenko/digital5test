@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>parseQueryString() runner for Digital 5 Test</title>
+  <script type="text/javascript" src="parseQueryString.js"></script>
+
+  <!-- To ensure that we have JSON in all browsers -->
+  <script type="text/javascript" src="libs/json2.js"></script>
+
+</head>
+<body>
+
+<script type="text/javascript">
+
+  // It's lovely to play with this page Chrome and observe how it loads page when you type the URL.
+
+  var params = parseQueryString();
+
+  document.write(JSON.stringify(params)); // don't worry, i never use document.write() in production code.
+  
+</script>
+
+</body>
+</html>
