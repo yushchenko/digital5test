@@ -42,3 +42,28 @@ Some kind of web for simple mobile phones...
 Yep, I could google and find out more
 but I strongly believe that you are interested in my real experience not in the copy-paste skill.
 So it makes perfect sense for me to skip this question.
+
+## 5. Architecture
+
+Draw a kind of diagram to show several different approaches and connections between them.
+
+* Make It Scalable
+  Web Farm --(select one)-- Cloud
+  A Cloud Solution like Google App Engine
+
+* Cache on Several Levels
+  client: browser memory
+  application: use a framework like Velocity for .Net
+  DB: denormalize when appropriate --(or go here)-> NoSQL DB
+
+* Minimize Traffic
+  crunch JavaScript, CSS, HTML --(pay less for traffic)-> CDN
+  use sprites for images
+  reduce amount of XHRs
+
+* CDN
+
+* NoSQL DB  <-(can be only one choise)-- Cloud
+
+
+
