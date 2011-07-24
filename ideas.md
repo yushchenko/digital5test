@@ -29,3 +29,10 @@ If I were asked to code review:
 Disclamer:
 Last time when I seriously wrote SQL was about 4 years ago.
 In theory, the code below should work but I have never run it, sorry for that.
+
+# 3. JavaScript, parsing query string
+
+Make the function sutable for unit tests using parameter.
+Use feature detection technique for trim function, use jQuery code.
+Create separate runner to test real query params.
+
