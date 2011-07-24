@@ -30,8 +30,15 @@ Disclamer:
 Last time when I seriously wrote SQL was about 4 years ago.
 In theory, the code below should work but I have never run it, sorry for that.
 
-# 3. JavaScript, parsing query string
+## 3. JavaScript, parsing query string
 
 Make the function sutable for unit tests using an extra parameter.
 Create separate runner to test with real query params.
 
+## 4. WAP Sites.
+
+Unfortunately, I have a very vague idea what WAP sites are.
+Some kind of web for simple mobile phones...
+Yep, I could google and find out more
+but I strongly believe that you are interested in my real experience not in the copy-paste skill.
+So it makes perfect sense for me to skip this question.
